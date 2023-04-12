@@ -10,6 +10,12 @@ const getProtectedMessage = () => {
   };
 };
 
+const getFakeProtectedMessage = () => {
+  return {
+    text: "This is a FAKE protected message.",
+  };
+};
+
 const getAdminMessage = () => {
   return {
     text: "This is an admin message.",
@@ -20,4 +26,5 @@ module.exports = {
   getPublicMessage,
   getProtectedMessage,
   getAdminMessage,
+  getFakeProtectedMessage,
 };
